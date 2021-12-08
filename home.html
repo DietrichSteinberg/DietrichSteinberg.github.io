@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <style>
+            .hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: url("Naruto-Vs-Sasuke.jpg");
+
+  /* Set a specific height */
+  height: 80%;
+
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+            .container{
+                background-image: url(background.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .column1 {
+  float: left;
+  width: 50%;
+}
+            .column2 {
+  float: right;
+  width: 50%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+            img{
+                width: 50%;
+            }
+            h1{
+                text-align: center;
+                font-family: "njnauto.ttf";
+            }
+        </style>
+    </head>
+    <body>
+        <div class="hero-image">
+  <div class="hero-text">
+    <h1>The Adventures of</h1>
+      <h2>Naruto and Sasuke</h2>
+  </div>
+</div>
+        <div class="container"><h1>Choose your character</h1><div class="row">
+            <div class="column1"><img src="Naruto%20button.png"><a href="Naruto_page2.html">Naruto</a></div>
+            <div class="column2"><img src="sasuke_button.png" ><a href="Sasuke_page2.html">Sasuke</a></div>
+            </div></div>
+    </body>
+</html>

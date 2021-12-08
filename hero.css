@@ -1,0 +1,40 @@
+.index_banner {
+  background-image: url("Bob-ross-cover.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.glitch_banner {
+  background-image: url("glitch-typography.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.meme_banner{
+   background-image: url("meme-image.jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+img{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+body{
+    background-image: 
+}

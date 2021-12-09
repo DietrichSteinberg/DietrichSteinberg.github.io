@@ -47,7 +47,7 @@ function levelOne(){
 } // end level one
 
 function levelTwo(){
-  background("#FFFF00");
+  object.style.backgroundImage = "url('8871.gif')|none|initial|inherit"
   text("Level 2", width/2, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/2){
@@ -66,7 +66,7 @@ function levelTwo(){
 } // end level two
 
 function levelThree(){
-    background("#00000");
+    object.style.backgroundImage = "url('background.gif')|none|initial|inherit";
   text("Level 3", width/2, height-20);
   var distToBall= dist(ballx, bally, mouseX, mouseY);
   if (distToBall <ballSize/2){
@@ -83,4 +83,4 @@ function levelThree(){
   
 //  line(ballx, bally, mouseX, mouseY);
   ellipse(ballx, bally, ballSize, ballSize);
-} // end level thre
+} // end level three

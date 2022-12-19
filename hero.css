@@ -15,7 +15,7 @@
   position: relative;
 }
 .meme_banner{
-   background-image: url("meme-image.jpg");
+   background-image: url("memeImages/meme-image.jpg");
   height: 80%;
   background-position: center;
   background-repeat: no-repeat;

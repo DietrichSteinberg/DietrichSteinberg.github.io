@@ -1,0 +1,61 @@
+<html>
+    <head>
+<title>ECHS Surf Club_Contacts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="Surf_style.css">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Chasing Embers Demo Version Regular;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("The_Surfboards.jpg");
+  height: 90%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+</style>
+</head>
+<body background= "fishes copy.jpg" style="background-repeat:no-repeat;">
+    
+  <div class="hero-image">
+  <div class="hero-text">
+    <h style="font-size:100px">Contact Us</h>
+  </div>
+</div>
+    
+    <div id="nav" style="background-color:000080"> 
+        <a href="Surf_Home.html">Home</a>- 
+        <a href="Surf_About.html">About</a> - 
+        <a href="Surf_Pics.html">Pictures and Videos</a> -
+        <a href="Surf_Contact.html">Contact</a></div>
+    
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>

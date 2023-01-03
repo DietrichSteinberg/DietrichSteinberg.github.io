@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Glitch Columns --------------------------------- */
+.column1 {
+  float: left;
+  width: 50%;
+    background-color: #663399;
+}
+/*AiArt Columns -----------------------------------------*/
+.column2 {
+  float: left;
+  width: 50%;
+    padding: 10px;
+    background-color: #663399;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2{
+    color: white;
+}
+img{
+    width: 100%;
+}
+p{
+    color: white;
+}
+p1{
+    color: white;
+    padding: 40px;
+}
+.textBox{
+    padding: 50px;
+    background-color: #c5558e;
+}
+
+
+/*Web projects Page columns ---------------------------*/
+
+        .columnW{
+            width: 50%;
+            float: left;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 10px;
+            height: 200px;
+        }

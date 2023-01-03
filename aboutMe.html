@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title>About Me</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/heroImage.css">
+    <link rel="stylesheet" href="css/slideShow.css">
+    <style>
+        .textBox{
+            
+        }
+    </style>
+    </head>
+    <body>
+         <div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="aboutMe.html">About Me</a>
+  <div class="dropdown">
+    <button class="dropbtn">My Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="glitch.html">Glitch Images</a>
+      <a href="aiArt.html">Ai Art</a>
+      <a href="websiteProjects.html">Websites</a>
+    </div>
+  </div>
+            <a href="contact.html">Contact</a>
+</div>
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="3page/3pageImages/Jojo-Caesar-1024x576.jpg" style="width:100%">
+  <div class="text">Caption Text</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="3page/3pageImages/banner.png" style="width:100%">
+  <div class="text">Caption Two</div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="3page/3pageImages/jojos-bizarre-adventure-cars-pillar-men-pose-blade-hair-dramatic-awesome-fantastic-flamboyant-jojo-bizarre-adventure-pose-246833777.jpg" style="width:100%">
+  <div class="text">Caption Three</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>      
+        <div class="textBox"><p>I first became interested in digital media art, due to the Career and Technical Education programs in my high school. I enjoyed graphic design and continued the digital media pathway with web design and later game design. It was these classes that helped me recognize my desired career path.
+I'm look for employment in graphic/web design.</p></div>
+        <script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+    </body>
+</html>

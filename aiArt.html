@@ -1,56 +1,91 @@
 <html>
-    <head>
-  <title>Net_Art</title>
-    <link rel="stylesheet" href="hero.css">
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+<head>
+    <title>AI Images</title>
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/heroImage.css">
+       <link rel="stylesheet" href="css/columns.css">
+    <style>
+        body{
+            background-color: #333;
+        }
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("aiArtImages/AdaIN-Style-Transfer%20(7).png");
+  height: 80%;
+        }
+        a{
+            color: white;
+        }
+        .column1{
+            background-color: #663399;
+            padding: 10px;
+        }
+        h2{
+            color: white;
+            margin-left: 40px;
+        }
+        p{
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        h3{
+            color: white;
+            text-align: center;
+        }
+          .column3{
+            background-color: #663399;
+            padding: 10px;
+            float: left;
+            width: 50%;
+        }
+        
+    </style>
     </head>
     <body>
-   <nav class="navbar navbar-expand-sm bg-light">
-  <div class="container-fluid">
-    <ul class="navbar-nav">
-      <li class="nav-item">
-        <a class="nav-link" href="index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="glitch_part1.html">Glitch</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="meme_mashup_part1.html">Meme Mashup</a>
-      </li>
-        
-               
-        <li class="nav-item">
-            <a class="nav-link" href="aiArt.html">Ai Art</a>
-        </li>
-        
-        <li class="nav-item">
-        <a class="nav-link" href="minecraft_part1.html">Minecraft</a>
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="sculpture_part1.html">Minecraft Sculpt</a>  
-      </li>
-        <li class="nav-item">
-        <a class="nav-link" href="net_art_part1.html">Net Art</a>  
-      </li>
-        <li class="nav-item"><a class="nav-link" href="portrait.html">Self Portrait</a></li>
-        <li class="nav-item"><a class="nav-link" href="diy.html">Diy Photoshop</a></li>
-                <li class="nav-item"><a class="nav-link" href="game.html">Game</a></li>
-         <li class="nav-item">
-        <a class="nav-link" href="Final.html">Final</a>  
-      </li>
-    </ul>
+          <div class="navbar">
+  <a href="index.html">Home</a>
+  <a href="aboutMe.html">About Me</a>
+  <div class="dropdown">
+    <button class="dropbtn">My Projects 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="glitch.html">Glitch Images</a>
+      <a href="aiArt.html">Ai Art</a>
+      <a href="websiteProjects.html">Websites</a>
+    </div>
   </div>
-</nav>
-            <div class="index_banner">
-  <div class="hero-text">
-    <h1 style="font-size:50px">Welcome to my Portfolio</h1>
-  </div> 
+            <a href="contact.html">Contact</a>
 </div>
-        <img src="aiImages/AdaIN-Style-Transfer%20(5).png">
-        <img src="aiImages/AdaIN-Style-Transfer%20(6).png">
-        <img src="aiImages/AdaIN-Style-Transfer%20(7).png">
-</body>
+        
+        
+        <div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:50px">Ai Art</h1>
+  </div>
+</div>  
+                <div class="row">
+  <div class="column1">
+      <img src="aiArtImages/AdaIN-Style-Transfer%20(5).png">
+      <h2>A Little Backstory</h2>
+      <p>The Ai Art on this page was an in class project in my Art 75 class. The objective of this assignment was to use ai to blend two different pictures together. One of the pictures would be the overall look of the picture and the other would be the texture or new estetice of the picture. The objective was to do this 3 separate times and each final picture needed to connect thematically with the others.</p>
+      <p>I started experimenting with JoJo pictures as the underlying picture, because I like the use of colors. For the Textures I used pictures of Nebulas, because I thought the color and texture of the nebula would exaggerate the colors of the original JoJo pictures. I used the same Nebula for the picture on the top and center right, because I wanted to see what would happen if the same. For the picture on the bottom, I used a nebula that was predominantly yellow and had hints of red and green in order to match the given color pallet of the original picture.</p>
+      <img src="aiArtImages/AdaIN-Style-Transfer%20(7).png">
+  </div>
+  <div class="column2">
+<img src="aiArtImages/AdaIN-Style-Transfer%20(6).png">
+  </div>
+</div>
+           <br>   
+        <div class="row">
+            <h3>Other Projects</h3>
+        <div class="column3">
+            <h3>Glitches</h3>
+            <a href="glitch.html"><img src="glitchImages/glitch2.PNG"></a>
+            </div>
+        <div class="column3">
+            <h3>Websites</h3>
+            <a href="websiteProjects.html"><img src="3page/3pageImages/Jojo-Caesar-1024x576.jpg"></a>
+            </div>
+        </div>
+    </body>
 </html>

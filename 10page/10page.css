@@ -1,0 +1,26 @@
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.hero-image{
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-image1{
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+a{
+    font-size: 40px;
+}
+body{
+    background-color: #333;
+}

@@ -1,0 +1,46 @@
+body{
+    font-family: cursive;
+    background-color:2b1d0e;
+    color: #ffffff;
+}
+/* unvisited link */
+a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color: white;
+}
+
+/* mouse over link */
+a:hover {
+  color:burlywood;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+a{
+    font-family: cursive;
+}
+h{
+    color: white;
+     font-family: cursive;
+}
+p{
+    color: white;
+     font-family: cursive;
+}
+#nav{
+    font-family: cursive;
+    font-size: 30px;
+    background-color:#000000;
+    text-align: center;
+}
+.column{
+    font-size:20px; 
+    color:#ffffff; 
+    font-family: cursive;
+}

@@ -4,9 +4,20 @@
     <link rel="stylesheet" href="css/navbar.css">
     <link rel="stylesheet" href="css/heroImage.css">
     <link rel="stylesheet" href="css/slideShow.css">
+    <link rel="stylesheet" href="css/columns.css">
     <style>
         .textBox{
-            
+            background-color: #7953A9;
+            padding: 30px;
+        }
+        .techSkills{
+            background-color: #c5558e;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 10px;
+        }
+        h{
+            color: white;
         }
     </style>
     </head>
@@ -15,7 +26,7 @@
   <a href="index.html">Home</a>
   <a href="aboutMe.html">About Me</a>
   <div class="dropdown">
-    <button class="dropbtn">My Projects 
+    <button class="dropbtn">Projects 
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
@@ -28,6 +39,10 @@
 </div>
 <div class="slideshow-container">
 
+    <div class="hero-text">
+    <h1 style="font-size:50px">About Me</h1>
+  </div>
+    
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="3page/3pageImages/Jojo-Caesar-1024x576.jpg" style="width:100%">
@@ -49,13 +64,45 @@
 </div>
 <br>
 
+<!--
 <div style="text-align:center">
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
 </div>      
-        <div class="textBox"><p>I first became interested in digital media art, due to the Career and Technical Education programs in my high school. I enjoyed graphic design and continued the digital media pathway with web design and later game design. It was these classes that helped me recognize my desired career path.
-I'm look for employment in graphic/web design.</p></div>
+-->
+        <div class="textBox">
+            <p>I first became interested in digital media art, due to the Career and Technical Education programs in my high school. I enjoyed graphic design and continued the digital media pathway with web design and later game design. It was these classes that helped me recognize my desired career path. I'm looking for employment in graphic/web design.</p>
+        </div>
+        <div class="row">
+            <div class="mePic"><img src="images/profilePic.jpeg"></div>
+        <div class="techSkills">
+            <h>Technical Skills</h>
+            <br>
+            <p>My graphic design experience includes Adobe Photoshop and Illustrator.</p>
+            <br>
+            <p>My web design experience includes Wordpress,  Brackets, and Github.</p>
+            <br>
+            <p>My Game Design experience includes Unity and Maya Autodesk. </p>
+            <br>
+            <img src="images/icons/Official_unity_logo.png" style="width: 45%">
+            <img src="images/icons/mayaLogo.png" style="width: 50%">
+            <br>
+            <h>Languages</h>
+            <p>HTML & CSS, C++, and Java</p>
+        </div>
+<!--            left-->
+            <div class="icons">
+                <img src="images/icons/adobePhotoshopIcon.png">
+                <img src="images/icons/wordPressIcon.png">
+                <img src="images/icons/bracketsIcon.png">
+            </div>
+<!--            right-->
+            <div class="icons">
+            <img src="images/icons/AdobeIllustrator.png">
+            <img src="images/icons/github.png">
+            </div>
+        </div>
         <script>
 let slideIndex = 0;
 showSlides();

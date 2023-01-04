@@ -52,3 +52,17 @@ p1{
             padding: 10px;
             height: 200px;
         }
+/*about me columns ----------------------------*/
+.mePic{
+    width: 30%;
+    float: left;
+}
+.techSkills{
+    background-color: #c5558e;
+    width: 50%;
+    float: left;
+        }
+.icons{
+    width: 10%;
+    float: left;
+}

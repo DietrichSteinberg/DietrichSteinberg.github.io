@@ -2,7 +2,8 @@
 <head>
     <title>Rise and Grind Coffee Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="coffeeCss/style.css">
+    <link rel="stylesheet" href="coffeeCss/contactForm.css">
 <style>
 body, html {
   height: 100%;
@@ -13,20 +14,8 @@ body, html {
 .hero-image {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("coffeeImages/contact.jpg");
   height: 80%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-}
 </style>
 </head>
 <body>
@@ -43,8 +32,19 @@ body, html {
         <a href=" Menu.html">Menu</a> - 
         <a href="Music.html">Music</a> -
         <a href="Contact.html">Contact</a></div>
-    <p>
-        Come down to the coffee shop
-    </p>
+    <div class="container">
+  <form action="/action_page.php">
+    <label for="fname"><h>First Name</h></label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname"><h>Last Name</h></label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject"><h>Subject</h></label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </body>
 </html>

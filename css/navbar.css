@@ -31,11 +31,6 @@
 .navbar a:hover, .dropdown:hover .dropbtn {
   background-color: #663399;
 }
-/*
-.navbar a:active{
-    background-color: #c5558e;
-}
-*/
 
 .dropdown-content {
   display: none;
@@ -62,4 +57,7 @@
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.currentPage{
+    background-color: #c5558e;
 }

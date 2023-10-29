@@ -75,3 +75,13 @@ p1{
     margin-left: 5%;
     margin-right: 5%;
 }
+.columnCode {
+  float: left;
+  width: 50%;
+}
+.purple{
+    background-color: #663399;
+}
+.right{
+    background-color: #7953A9;
+}

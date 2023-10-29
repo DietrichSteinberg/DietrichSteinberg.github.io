@@ -67,3 +67,11 @@ p1{
     float: left;
     background-color: #663399;
 }
+/*Video Media*/
+.column {
+  float: left;
+  width: 40%;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 5%;
+}

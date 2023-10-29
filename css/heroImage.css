@@ -5,6 +5,7 @@ body, html {
 }
 
 .hero-image {
+    height: 60%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

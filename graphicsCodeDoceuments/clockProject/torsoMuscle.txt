@@ -1,0 +1,45 @@
+void torsoMuscle1(){
+  ellipseMode(CENTER);
+  //shoulder();
+frontArms();
+chest();
+abs();
+}
+void abs(){
+  fill(base);
+ellipse(xpos1+19,y1+40,35,25);
+ellipse(xpos1-19,y1+40,35,25);
+ellipse(xpos1+19,y1+65,35,20);
+ellipse(xpos1-19,y1+65,35,20);
+//low ab---------------------------
+ellipse(xpos1-10,y1+95,20,40);
+ellipse(xpos1+10,y1+95,20,40);
+}
+void chest(){
+  fill(chest);
+ellipse(xpos1+35,y1-5, 70, 60);
+ellipse(xpos1-35,y1-5, 70, 60);
+}
+void torsoMuscle2(){
+  fill(back);
+  lowerBack();
+lats();
+innerBack();
+traps();
+}
+void lats(){
+  triangle(xpos2+5,y1+20,xpos2+80,y1,xpos2+5,yl);
+triangle(xpos2-5,y1+20,xpos2-80,y1,xpos2-5,yl);
+}
+void innerBack(){
+triangle(xpos2+5,y1-10,xpos2+80,y+70,xpos2+4,yl-60);
+triangle(xpos2-5,y1-10,xpos2-80,y+70,xpos2-4,yl-60);
+}
+void traps(){
+triangle(xpos2+5,y+40,xpos2+80,y+70,xpos2+5,y1-5);
+triangle(xpos2-5,y+40,xpos2-80,y+70,xpos2-5,y1-5);
+}
+void lowerBack(){
+triangle(xpos2+40,yl-25,xpos2+30,yl-50,xpos2+10,yl);
+triangle(xpos2-40,yl-25,xpos2-30,yl-50,xpos2-10,yl);
+}

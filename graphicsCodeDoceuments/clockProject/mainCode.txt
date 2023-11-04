@@ -1,0 +1,48 @@
+float y = 45;
+float y1 = y+100;
+float xpos1 = 250;
+float xpos2 = 750;
+float fa1 = xpos1+70;
+float fa2 = xpos1-70;
+float fa3 = xpos2+70;
+float fa4 = xpos2-70;
+float yl = y+220;
+
+void setup(){
+size(1000,600);
+timer();
+}
+void draw(){
+  line(width/2,0,width/2,600);
+update();
+//strokeChange();
+human();
+}
+void human(){
+front();
+back();
+}
+void front(){
+  butt1();
+neck1();
+ inner();
+torso1();
+frontLegs();
+  head1();
+}
+void back(){
+head2();
+neck2();
+torso2();
+torsoMuscle2();
+backArms();
+backLegs();
+record(400);
+}
+
+void record(int t){
+  if (frameCount<t){
+  saveFrame("video/images######.png");
+}else{
+exit();}
+}

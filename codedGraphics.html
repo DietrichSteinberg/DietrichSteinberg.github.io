@@ -45,6 +45,56 @@
         h2{
             text-align: center;
         }
+        .codeDisplay{
+            background-color: #333;
+            border: none;
+            float: right;
+            margin-right: 2%;
+            padding: 10px 15px;
+            
+        }
+        .codeDisplay a{
+            text-decoration: none;
+        }
+.clockProjectCodedropbtn {
+  cursor: pointer;
+    background-color: #333;
+            border: none;
+    color: white;
+    padding: 10px 15px;
+}
+
+.clockProjectCodedropdown {
+  position: relative;
+  display: inline-block;
+    float: right;
+    margin-right: 2%;
+}
+
+.clockProjectCodedropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.clockProjectCodedropdown-content a {
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.clockProjectCodedropdown-content a:hover {background-color: #f1f1f1}
+
+.clockProjectCodedropdown:hover .clockProjectCodedropdown-content {
+  display: block;
+}
+
+.clockProjectCodedropdown:hover .clockProjectCodedropbtn {
+  background-color: #3e8e41;
+}
     </style>
     </head>
     <body>
@@ -71,29 +121,44 @@
     <p>Made with Java Script in Processing</p>
   </div>
 </div>
-<!--        media-->
+<!--        row 1-------Random Graphics&Inosuke Head Pat------>
 <div class="row">
   <div class="columnCode purple">
-    <h1>Example1</h1>
+    <h1>Random Graphics</h1>
     <iframe src="https://www.youtube.com/embed/01wLqNF5ml8?si=PPWwc6JCZxX7vr8B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p class="description">For this project</p>
+      <p class="description">This project is a display of multiple graphics functioning at the same time.</p>
+      <button class="codeDisplay"><a href="graphicsCodeDoceuments/Example1.pde" target="_blank">display code</a></button>
 </div>
     <div class="columnCode right"><h1>Inosuke Head Pat</h1>
 <iframe src="https://www.youtube.com/embed/xGQHZ-rMnbI?si=jfjJhMa2-GEsRjs3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    <p class="description">I made this project, because I thought the premise would be funny.</p>
+    <p class="description">This project displays a graphic that uses a mouse pointer as a trigger and the hover function to activate a change in the graphic. The graphics are inspired by a meme of an anime character.</p>
+        <button class="codeDisplay"><a href="graphicsCodeDoceuments/InosukeCute.pde" target="_blank">display code</a></button>
     </div>
     </div>
-<!--        row 2----------------------------------------------------------------------------->
+<!--        row 2-------------Spinning Levi&Clock Project-------------------------------------------------------->
         <div class="row">
   <div class="columnCode right">
     <h1>Spinning Levi</h1>
             <iframe src="https://www.youtube.com/embed/_SC9fEIBHyc?si=VxXjvsqy6JGHC7Iq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p class="description">This project is based on a reference from an anime that I liked. </p>
+      <p class="description">This project is meant to display a rotation function. The project displays a reference from an anime that I like.</p>
+      <button class="codeDisplay"><a href="graphicsCodeDoceuments/spinningLevi.pde" target="_blank">display code</a></button>
 </div>
     <div class="columnCode purple">
         <h1>Clock Project</h1>
                 <iframe src="https://www.youtube.com/embed/H0nqDNOBImI?si=o139lpeESDgiQoxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="description">This project was a creation of visual effects based on a timer or clock.</p>
+        <p class="description">This project was a creation of visual effects based on a timer or clock. The visual effects represent the muscles that are being engaged during multiple workout sessions on a day by day basis.</p>
+        <div class="clockProjectCodedropdown">
+  <button class="clockProjectCodedropbtn">Display Code</button>
+  <div class="clockProjectCodedropdown-content">
+  <a href="graphicsCodeDoceuments/clockProject/mainCode.txt" target="_blank">main code</a>
+  <a href="graphicsCodeDoceuments/clockProject/timer.txt" target="_blank">Clock Function</a>
+  <a href="graphicsCodeDoceuments/clockProject/head.txt" target="_blank">head</a>
+      <a href="graphicsCodeDoceuments/clockProject/arms.txt" target="_blank">arms</a>
+      <a href="graphicsCodeDoceuments/clockProject/legs.txt" target="_blank">legs</a>
+      <a href="graphicsCodeDoceuments/clockProject/torso.txt" target="_blank">torso</a>
+      <a href="graphicsCodeDoceuments/clockProject/torsoMuscle.txt" target="_blank">torso muscles</a>
+  </div>
+</div>
             </div>
     </div>
 <!--        row 3---------------Galaxy Pinball&Squid-------------------------------------------->
@@ -102,11 +167,15 @@
     <h1>Galaxy Pinball</h1>
     <iframe src="https://www.youtube.com/embed/a13JsCS_aAE?si=5ZrG7K1xpWo2MmH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <p class="description">This graphic displays the bounce function. I dicided to have the theme be space, because I thought it would elivate the piece and make it more interesting.</p>
+      <button class="codeDisplay"><a href="graphicsCodeDoceuments/galaxyPinball.pde" target="_blank">display code</a></button>
 </div>
     <div class="columnCode right">
 <h1>Squid</h1>
 <iframe  src="https://www.youtube.com/embed/sNxo_cslkaI?si=UBOXWSNiHSzmXZn2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="description">This project uses mouse activity as a function trigger that gives the squid an agitated response.</p>
+        <p class="description">This project uses mouse activity as a function trigger that gives the squid an agitated response. Was made using multiple seperate tabs in processing for personal organization reasons.</p>
+        <button class="codeDisplay"><a href="graphicsCodeDoceuments/squid/squidDesign.pde" target="_blank">display code(p2)</a></button>
+        <button class="codeDisplay"><a href="graphicsCodeDoceuments/squid/mainFunction.pde" target="_blank">display code(p1)</a></button>
+        
     </div>
     </div>
 <!--        row 4------------Stormy Night&Paint Brush Project------------------------------------------>
@@ -114,14 +183,18 @@
   <div class="columnCode right">
     <h1>Stormy Night</h1>
     <iframe src="https://www.youtube.com/embed/ZtnubSdp4rc?si=gi1fjVEL0asogXcL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-      <p class="description">For this project I combined the wave and noise function in order to make a landscape image with a cloady night sky.</p>
+      <p class="description">For this project I combined the wave and noise function in order to make a landscape image with a cloady night sky. This graphic also displays the usage of layering to create a foreground and background.</p>
+      <button class="codeDisplay"><a href="graphicsCodeDoceuments/cload/thunderStorm.pde" target="_blank">display code(p2)</a></button>
+      <button class="codeDisplay"><a href="graphicsCodeDoceuments/cload/cloadFill.pde" target="_blank">display code(p1)</a></button>
 </div>
     <div class="columnCode purple">
-        <h1>Paint Brush Project</h1>
+        <h1>Paint Brush</h1>
         <iframe src="https://www.youtube.com/embed/7yYpBrWCvF8?si=gj4rDVu6-p2XphKW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        <p class="description">For this project</p>
+        <p class="description">This project uses meme images to create a brush and eraser function based on the motion of a mouse. The brushes are activates by pressing down on the mouse. It also contains a function that uses number keys to swap between brushes.</p>
+        <button class="codeDisplay"><a href="graphicsCodeDoceuments/sketchBrush.pde" target="_blank">display code</a></button>
             </div>
     </div>
+<!--        footer-------------------------------------->
         <div class="footer">
             <h2>Other Projects</h2>
             <br>

@@ -1,0 +1,52 @@
+void torso1(){
+  fill(base);
+  /// outline
+  beginShape();
+  //shoulder1----------------------------
+vertex(xpos1-25,y+50);
+vertex(xpos1+25,y+50);
+vertex(xpos1+80,y+70);
+vertex(xpos1+80,y+100);
+//lat1-------------------------
+vertex(xpos1+50,y+150);
+//waist---------------------
+vertex(xpos1+40,y+200);
+vertex(xpos1+10,y+220);
+vertex(xpos1-10,y+220);
+vertex(xpos1-40,y+200);
+//------------------------------
+//lat2
+vertex(xpos1-50,y+150);
+//sholder2------------------------------
+vertex(xpos1-80,y+100);
+vertex(xpos1-80,y+70);
+vertex(xpos1-25,y+50);
+endShape();
+  torsoMuscle1();
+}
+void torso2(){
+  //fill(b);
+  /// outline
+  beginShape();
+  //shoulder1----------------------------
+vertex(xpos2-25,y+50);
+vertex(xpos2+25,y+50);
+vertex(xpos2+80,y+70);
+vertex(xpos2+80,y+100);
+//lat1-------------------------
+vertex(xpos2+50,y+150);
+//waist---------------------
+vertex(xpos2+40,y+200);
+vertex(xpos2+10,y+220);
+vertex(xpos2-10,y+220);
+vertex(xpos2-40,y+200);
+//------------------------------
+//lat2
+vertex(xpos2-50,y+150);
+//sholder2------------------------------
+vertex(xpos2-80,y+100);
+vertex(xpos2-80,y+70);
+vertex(xpos2-25,y+50);
+endShape();
+  //torsoMuscle2();
+}

@@ -1,0 +1,107 @@
+void frontArms(){
+  ellipseMode(CENTER);
+  hands();
+  frontForearms();
+frontShoulder();
+biceps();
+}
+void backArms(){
+bicept2();
+backShoulder();
+backForearm();
+tricept();
+handElbow();
+}
+void frontForearms(){
+  //left------------------
+beginShape();
+vertex(fa1+25,y1+45);
+vertex(fa1+35,y1+70);
+vertex(fa1+25,y1+140);
+vertex(fa1+10,y1+140);
+vertex(fa1+8,y1+100);
+vertex(fa1,y1+70);
+vertex(fa1+5,y1+45);
+endShape();
+//right--------------------
+beginShape();
+vertex(fa2-5,y1+45);
+vertex(fa2+5,y1+70);
+vertex(fa2-2,y1+100);
+vertex(fa2-5,y1+140);
+vertex(fa2-20,y1+140);
+vertex(fa2-30,y1+70);
+vertex(fa2-25,y1+45);
+endShape();
+}
+//hands----------------------------------------
+//-------------------------------------------------
+void frontShoulder(){
+  fill(chest);
+  //right------------------
+  ellipse(fa1+11,y1-15,40,45);
+ellipse(fa1+10,y1-15,35,40);
+//left---------------
+ellipse(fa2-15,y1-15,40,45);
+ellipse(fa2-14,y1-15,35,40);
+}
+void biceps(){
+  fill(back);
+ellipse(fa2-15,y1+20,30,65);
+ellipse(fa1+15,y1+20,30,65);
+}
+void backShoulder(){
+ellipse(fa3+11,y1-15,40,45);
+ellipse(fa3+10,y1-15,35,40);
+ellipse(fa4-13,y1-15,35,40);
+}
+void tricept(){//------------------------------------
+fill(chest);
+  //arm1--------------------------------------------
+  ellipse(fa3+25,y1+10,15,25);
+ellipse(fa3+9,y1+10,20,35);
+ellipse(fa3+17,y1+25,15,30);
+  //arm2---------------------------
+ellipse(fa4-25,y1+10,15,25);
+ellipse(fa4-9,y1+10,20,35);
+ellipse(fa4-17,y1+25,15,30);
+}
+void bicept2(){
+  fill(back);
+ellipse(fa3+15,y1+20,30,65);
+ellipse(fa4-15,y1+20,30,65);
+}
+void backForearm(){
+beginShape();
+//left----------------------
+vertex(fa4-5,y1+45);
+vertex(fa4+5,y1+70);
+vertex(fa4-2,y1+100);
+vertex(fa4-5,y1+140);
+vertex(fa4-20,y1+140);
+vertex(fa4-30,y1+70);
+vertex(fa4-25,y1+45);
+endShape();
+//right---------------------
+beginShape();
+vertex(fa3+25,y1+45);
+vertex(fa3+35,y1+70);
+vertex(fa3+25,y1+140);
+vertex(fa3+10,y1+140);
+vertex(fa3+8,y1+100);
+vertex(fa3,y1+70);
+vertex(fa3+5,y1+45);
+endShape();
+} 
+void hands(){
+  fill(base);
+ellipse(fa1+15,y1+155,30,40);
+ellipse(fa2-10,y1+155,30,40);
+}
+void handElbow(){
+  fill(base);
+  ellipse(fa4-15,y1+45,10,10);
+  ellipse(fa3+15,y1+45,10,10);
+  ellipse(fa3+15,y1+155,30,40);
+  ellipse(fa4-10,y1+155,30,40);
+}

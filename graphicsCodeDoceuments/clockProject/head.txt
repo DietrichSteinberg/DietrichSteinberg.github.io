@@ -1,0 +1,18 @@
+void head1(){
+  fill(base);
+  ellipseMode(CENTER);
+ellipse(xpos1,y,50,60);
+}
+void head2(){
+  fill(base);
+  ellipseMode(CENTER);
+  ellipse(xpos2,y,50,60);
+}
+void neck1(){
+  fill(base);
+  quad(xpos1-20,y,xpos1+20,y,xpos1+25,y+50,xpos1-25,y+50);
+}
+void neck2(){
+  fill(base);
+  quad(xpos2-20,y,xpos2+20,y,xpos2+25,y+50,xpos2-25,y+50);
+}

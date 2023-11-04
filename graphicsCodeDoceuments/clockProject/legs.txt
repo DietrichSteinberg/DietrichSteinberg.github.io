@@ -1,0 +1,107 @@
+void frontLegs(){
+  ellipseMode(CENTER);
+    calfs1();
+    kneeCap();
+  quad1();
+}
+void backLegs(){
+  quad2();
+butt2();
+calfs2();
+  knees2();
+}
+void quad2(){
+    fill(legs);
+  //right----------------------
+  ellipse(xpos2+25,yl+70,25,100);
+  ellipse(xpos2+40,yl+45,25,140);
+  inner3();
+ellipse(xpos2+30,yl+55,30,80);
+//left-------------------------
+  ellipse(xpos2-25,yl+70,25,100);
+  ellipse(xpos2-40,yl+45,25,140);
+  inner2();
+ellipse(xpos2-30,yl+55,30,80);
+}
+void calfs2(){
+    fill(legs);
+  //left-------------------------------
+beginShape();
+vertex(xpos2+45,yl+110);
+vertex(xpos2+55,yl+160);
+vertex(xpos2+45,yl+240);
+vertex(xpos2+30,yl+240);
+vertex(xpos2+27.5,yl+200);
+vertex(xpos2+20,yl+160);
+vertex(xpos2+25,yl+110);
+vertex(xpos2+45,yl+110);
+endShape();
+//right------------------------
+beginShape();
+vertex(xpos2-45,yl+110);
+vertex(xpos2-55,yl+160);
+vertex(xpos2-45,yl+240);
+vertex(xpos2-30,yl+240);
+vertex(xpos2-27.5,yl+200);
+vertex(xpos2-20,yl+160);
+vertex(xpos2-25,yl+110);
+vertex(xpos2-45,yl+110);
+endShape();
+}
+void butt2(){
+    fill(legs);
+ellipse(xpos2+25,yl,50,40);
+ellipse(xpos2-25,yl,50,40);
+}
+void inner(){
+  fill(legs);
+ ellipse(xpos1+20,yl+25,30,80);
+ ellipse(xpos1-20,yl+25,30,80);
+}
+void inner2(){ellipse(xpos2-20,yl+25,30,80);}
+void inner3(){ ellipse(xpos2+20,yl+25,30,80);}
+void quad1(){
+  fill(legs);
+  ellipse(xpos1+25,yl+70,25,100);
+  ellipse(xpos1+40,yl+45,25,140);
+ellipse(xpos1+30,yl+35,30,110);
+  ellipse(xpos1-25,yl+70,25,100);
+  ellipse(xpos1-40,yl+45,25,140);
+ellipse(xpos1-30,yl+35,30,110);
+}
+void calfs1(){
+    fill(legs);
+beginShape();
+vertex(xpos1+45,yl+110);
+vertex(xpos1+55,yl+160);
+vertex(xpos1+45,yl+240);
+vertex(xpos1+30,yl+240);
+vertex(xpos1+27.5,yl+200);
+vertex(xpos1+20,yl+160);
+vertex(xpos1+25,yl+110);
+vertex(xpos1+45,yl+110);
+endShape();
+beginShape();
+vertex(xpos1-45,yl+110);
+vertex(xpos1-55,yl+160);
+vertex(xpos1-45,yl+240);
+vertex(xpos1-30,yl+240);
+vertex(xpos1-27.5,yl+200);
+vertex(xpos1-20,yl+160);
+vertex(xpos1-25,yl+110);
+vertex(xpos1-45,yl+110);
+endShape();
+}
+void butt1(){
+  fill(legs);
+  ellipse(xpos1+25,yl,50,40);
+ellipse(xpos1-25,yl,50,40);
+}
+void kneeCap(){
+ellipse(xpos1+35,yl+120,15,20);
+ellipse(xpos1-35,yl+120,15,20);
+}
+void knees2(){
+ellipse(xpos2+35,yl+115,15,25);
+ellipse(xpos2-35,yl+115,15,25);
+}

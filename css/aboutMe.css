@@ -1,0 +1,19 @@
+.mePic {
+	width: 40%;
+	float: left;
+	padding: 5%;
+}
+
+.techSkills {
+	background-color: #c5558e;
+	float: left;
+}
+
+.icons {
+	width: 20%;
+}
+.artistStatement {
+	width: 60%;
+	float: left;
+	padding: 5%;
+}

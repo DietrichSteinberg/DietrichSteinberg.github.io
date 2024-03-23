@@ -46,3 +46,11 @@ body{
 h1{
    color: white;
 }
+.footer {
+    float: left;
+    width: 100%;
+    text-align: center;
+    background-color: #c5558e;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}

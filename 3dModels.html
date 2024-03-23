@@ -4,18 +4,8 @@
 	<link rel="stylesheet" href="css/navbar.css">
 	<link rel="stylesheet" href="css/heroImage.css">
 	<link rel="stylesheet" href="css/slideShow.css">
+	<link rel="stylesheet" href="css/3dModels.css">
 	<style>
-		.hero-image {
-			height: 40%;
-		}
-
-		a {
-			color: white;
-		}
-
-		.blenderLogoMini {
-			width: 2%;
-		}
 	</style>
 </head>
 <body>
@@ -41,11 +31,80 @@
 		<div class="hero-text">
 			<h1 style="font-size:50px">3D Models/Animation</h1>
 			<p>Made with Blender<img class="blenderLogoMini" src="images/icons/blender_logo.png"></p>
-			<button><a href="">View Models</a></button>
 		</div>
 	</div>
-	<div class="slideShowManual trenchImages"></div>
-	<div class="slideShowManual spiderMantis"></div>
-	<div class="slideShowManual trenchAtillery"></div>
+
+	<div class="slideshow-container">
+		<div class="slider-header"><h2>WW1 Style Trench</h2></div>
+		<div class="mySlides1">
+			<img src="images/3dModels/trench/trench1.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<img src="images/3dModels/trench/trench2.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides1">
+			<img src="images/3dModels/trench/trench3.jpg" style="width:100%">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+	</div>
+	<div class="dropup">
+		<button class="dropbtn">Description</button>
+		<div class="dropup-content">
+			<p>This a low poly count model of a WW1 Trench.</p>
+		</div>
+	</div>
+
+
+	<br>
+	<div class="slideshow-container">
+		<div class="slider-header"><h2>Improbable Creature</h2></div>
+		<div class="mySlides2">
+			<img src="img_band_chicago.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides2">
+			<img src="img_band_la.jpg" style="width:100%">
+		</div>
+
+		<div class="mySlides2">
+			<img src="img_band_ny.jpg" style="width:100%">
+		</div>
+
+		<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+		<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+	</div>
+	<div class="dropup">
+		<button class="dropbtn">Description</button>
+		<div class="dropup-content">
+			<p>This a high poly count model of an imaginary createure that is the combination of a jumping spider, prey mantis and an ankliosaruas.</p>
+		</div>
+	</div>
+	<br>
+	<script>
+		let slideIndex = [1, 1];
+		let slideId = ["mySlides1", "mySlides2"]
+		showSlides(1, 0);
+		showSlides(1, 1);
+
+		function plusSlides(n, no) {
+			showSlides(slideIndex[no] += n, no);
+		}
+
+		function showSlides(n, no) {
+			let i;
+			let x = document.getElementsByClassName(slideId[no]);
+			if (n > x.length) { slideIndex[no] = 1 }
+			if (n < 1) { slideIndex[no] = x.length }
+			for (i = 0; i < x.length; i++) {
+				x[i].style.display = "none";
+			}
+			x[slideIndex[no] - 1].style.display = "block";
+		}
+	</script>
+	<div class="footer" style="margin-top: 3%;"><a href="contact.html"><h>Contact Me</h></a></div>
 </body>
 </html>

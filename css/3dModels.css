@@ -56,30 +56,33 @@ h2 {
 }
 
 .dropbtn {
-	background-color: #c5558e;
+	background-color: #7953A9;
 	color: white;
-	padding: 16px;
+	padding: 2%;
 	font-size: 16px;
 	border: none;
+	width: 100%;
 }
 
 .dropup {
 	position: relative;
 	display: inline-block;
+	margin-left: 10%;
+	margin-right: 10%;
+	float: left;
+	width: 80%;
 }
 
 .dropup-content {
 	display: none;
 	position: absolute;
-	background-color: #663399;
-	min-width: 160px;
+	background-color: #7953A950;
 	bottom: 50px;
 	z-index: 1;
 }
 
 	.dropup-content p {
 		color: white;
-		background-color: #663399;
 		padding: 12px 16px;
 		text-decoration: none;
 		display: block;
@@ -90,5 +93,5 @@ h2 {
 }
 
 .dropup:hover .dropbtn {
-	background-color: #663399;
+	background-color: #7953A9;
 }

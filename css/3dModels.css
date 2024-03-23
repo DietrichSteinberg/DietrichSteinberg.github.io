@@ -1,5 +1,5 @@
 .hero-image {
-	height: 40%;
+	height: 30%;
 }
 
 a {
@@ -40,8 +40,7 @@ a {
 
 	/* On hover, add a grey background color */
 	.prev:hover, .next:hover {
-		background-color: #f1f1f1;
-		color: black;
+		background-color: #663399;
 	}
 
 h2 {
@@ -50,7 +49,7 @@ h2 {
 .slider-header {
 	text-align: center;
 	position: absolute;
-	top: 20%;
+	top: 15%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	color: white;

@@ -1,0 +1,21 @@
+.artist_statement{
+    margin: 0px 50px 0px 25px;
+    float: right;
+    width: 500px;
+}
+.artist_statement h{
+    float: left;
+    margin-bottom: 20px;
+}
+.artist_statement p{
+    float: left;
+}
+.button_to_code{
+    margin: 20px 0px;
+}
+.button_to_code a{
+    padding: 20px 25px;
+    text-decoration: none;
+    background-color: blueviolet;
+    color: white;
+}

@@ -1,0 +1,80 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="general.css">
+        <script src="slideShow.js"></script>
+        <style>
+            .mySlides {
+                display:none;
+                width: 500px;
+                height: relative;
+            }
+
+            .left button {
+                position: fixed;
+                text-align: left;
+                padding: 10px;
+                overflow: hidden;
+            }
+            .right button {
+                position: fixed;
+                text-align: right;
+                padding: 10px;
+                overflow: hidden;
+            }
+            button:hover {
+                background-color: #555;
+                color: white;
+                }
+            img{
+                width: 400px;
+                height: auto;
+            }
+        </style>
+        <title>Leds and Brushbots</title>
+    </head>
+    <body>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a class="active" href="ledsAndBrushBots.html">Leds and Brushbots</a></li>
+            <li><a href="microGesture.html">Micro Gesture</a></li>
+            <li><a href="serialGesture.html">Serial Gesture</a></li>
+            <li><a href="finalProject.html">Final Project</a></li>
+          </ul>
+
+          <h1>Led Wall Documentation</h1>
+          <p>click arrows to view images</p>
+
+          <div class="w3-content w3-display-container">
+            <img class="mySlides" src="wallImages/initial_prototype_leds.jpeg">
+            <img class="mySlides" src="wallImages/initialPrototypeWall.jpeg">
+            <img class="mySlides" src="wallImages/wallwithBrackets.jpg">
+            <img class="mySlides" src="wallImages/lightsSetup.jpg">
+            <img class="mySlides" src="wallImages/lightsCompletion.jpg">
+            <img class="mySlides" src="wallImages/accessories.jpg">
+          
+            <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="right" onclick="plusDivs(1)">&#10095;</button>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rK6L7RcD0Qs?si=NjxPQqPuanqvRAZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <br>
+            <h2> Led Wall Artist Statement</h2>
+            <p>
+                For the wall I made an LED effect that was inspired by James Turrell's artworks. 
+                The overall structure is inspired by Greeco-Roman archicteture.
+                I chose to use a orangish color LEDs, because I wanted the structure to have a warm cozy vibe, and I also wanted to make sure I didn't pull too much voltage by using a more power hungry color LED.
+                I used white paper on the back in order to diffuse the light to help create that warm cozy feeling.
+            </p>
+            <h1>Brushbot documentation</h1>
+                <img src="brushbotImages/brush_bot1.jpg">
+                <img src="brushbotImages/brush_bot2.jpg">
+                <iframe width="315" height="560" src="https://www.youtube.com/embed/LyINCFa5ZAQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+                <h2>Artist Statement</h2>
+                <p>
+                    The brush bot is meant to be an ironic parady of the ideal of the vitorian gentleman.
+                    Therefore I made it to look like a "gentleman" with a haggered appearance. 
+                    For the gentleman part, I decorated it with a top hat and a cigerette, and for the haggered part, I purposely used the mismatching electronic parts to contruct a face and beard.
+                    The eyes were made with the green Led and the on/off switch.
+                    The brush of the brush bot looks like an unkempt beard. 
+                </p>
+    </body>
+</html>
